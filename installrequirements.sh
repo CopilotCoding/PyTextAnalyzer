@@ -4,7 +4,7 @@
 pip3 install -r requirements.txt
 
 # Install textblob corpora
-python3 -m textblob.download_corpora
+python -m textblob.download_corpora
 
 # Install spacy efficient english trained model
 python -m spacy download en_core_web_sm
