@@ -5,6 +5,10 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from collections import Counter
 
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('stopwords')
+
 def analyze_text(file_path):
     # Read the text from the input file
     try:
