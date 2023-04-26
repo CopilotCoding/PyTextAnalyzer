@@ -2,7 +2,7 @@ import os
 import json
 
 # Read the file contents select the encoding or default 'r'
-with open("input.txt", encoding='utf-8') as file:
+with open("input.txt", 'r') as file:
     text = file.read()
 
 # Split the text into words
