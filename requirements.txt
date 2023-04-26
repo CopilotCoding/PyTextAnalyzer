@@ -1,0 +1,9 @@
+setuptools
+requests
+beautifulsoup4
+numpy
+nltk
+textblob
+spacy
+gensim
+yake
